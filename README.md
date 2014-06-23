@@ -1,1 +1,3 @@
-[readme2.md](readme3.md "readme2.md")
+[1.print](print.md)
+[2.display](display.md)
+[3.disable display](disable_display.md)
