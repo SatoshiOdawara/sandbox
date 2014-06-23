@@ -10,7 +10,7 @@ dispno display情報
 #### 処理概要
 - 登録済 display 情報について、指定された display 番号の display 情報を削除する。
 - 指定された番号の display 情報が存在しない場合はエラー表示する。
-- display番号が指定されない場合、確認後、全display情報を削除する。
+- display番号が指定されない場合、**確認後**、全display情報を削除する。
 
 #### 事後条件
 - 登録済 display 情報について、指定された display 番号の display 情報を削除する。
