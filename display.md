@@ -12,7 +12,7 @@ expr 評価する式
 - display番号を採番し、exprを登録する。
 - display番号を表示する。
 - print exprを実行する。
-- 例外発生時は display番号を削除する。
+- syntax error発生時は display番号を削除する。
 
 (break(watch)によるプログラム停止時)
 - 表示対象（display登録済かつ有効）について下記を行う。（登録の逆順で表示）
@@ -49,7 +49,7 @@ Breakpoint 1,  xxx () at hoge.rb:10
 |異常状態|処理内容|
 |----|----|
 |パラメータなし|(break(watch)によるプログラム停止時)と同様に振る舞う|
-|expr 評価時に例外が発生|評価結果を表示し、display番号を削除する。（デバッガの動作を継続する）|
+|expr 評価時にsyntax errorが発生|評価結果を表示し、display番号を削除する。（デバッガの動作を継続する）|
 
 #### 使用API
 [printコマンド](print.md)と同じ
