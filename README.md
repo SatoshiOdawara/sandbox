@@ -1,8 +1,9 @@
 # コマンド仕様
 ## printコマンド
-{code}
+
+'''
 print expr
-{/code}
+'''
 
 ## パラメータ
 - expr 評価する式
